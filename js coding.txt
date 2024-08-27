@@ -1,0 +1,189 @@
+question 1
+<html>
+<body>
+<script>
+function celsiusToFahrenheit(celsius) {
+  return (celsius * 9/5) + 32;
+}
+
+let tempInCelsius = 25;
+let tempInFahrenheit = celsiusToFahrenheit(tempInCelsius);
+console.log(`${tempInCelsius}°C is equal to ${tempInFahrenheit}°F.`);
+</script>
+</body>
+</html>
+
+
+question 2
+ <html>
+<body>
+    <script>
+        function checkNum(num){
+            if(num>0)
+            {
+                return "Positive";
+            }
+            else if(num<0)
+            {
+                return "Negative";
+            }
+            else{
+                return"Zero";
+            }
+        }
+        console.log(checkNum(5));
+    </script>
+    
+</body>
+</html>
+
+question 3
+<html>
+<body>
+<script>
+let str="smilysrinidhi";
+console.log(length(substr(1,4)));
+</script>
+</body>
+</html>
+
+
+question 4
+<html>
+<body>
+<script>
+let str1="    fullstackdevolper   ";
+console.log(length.str1)
+let str2=console.log(str1.trim())
+console.log(length.str2)
+
+
+
+
+question 5
+<html>
+<body>
+<script>
+let person={
+name="kalki",
+age:34
+}
+console.log(person.name)
+console.log(person.age)
+</script>
+</body>
+</html>
+
+
+question6
+<html>
+<body>
+<script>
+let days= 7;
+Switch(day)
+{
+case 1:document.write("it is monday");
+       break;
+case 2:document.write("it is tuesday");
+       break;
+case 3:document.write("it is wedday");
+       break;
+case 4:document.write("it is thursday");
+       break;
+case 5:document.write("it is friday");
+       break;
+case 6:document.write("it is saturday");
+       break;
+case 7:document.write("it is sunday");
+       break;
+}
+</script>
+</body>
+</html>
+
+
+
+
+question 8
+<html>
+<body>
+<script>
+let array =[1,2,3,4,5,6,7,8,,9]
+console.log(arr.pop(5))
+</script>
+</body>
+</html>
+
+
+ question 7
+<html>
+<body>
+<script>
+let nestedArray=[1,[3,4],[4,5,6]]
+let flattendArray=nestedArray.flat();
+console.log(flattenedArray);
+</script>
+</body>
+</html>
+
+
+
+question 9
+<html>
+<body>
+<script>
+let arr=[6,78,89,90,56,67,23,34,45]
+console.log(arr.findIndex(4))
+</script>
+</body>
+</html>
+
+question 12
+<html>
+<body>
+    <script>
+        
+        let age = 18;
+    let ownsCar = true; 
+
+    if (age > 16 && ownsCar) {
+        console.log("sathya is old enough to drive and has his own car.");
+    }
+else{
+console.log("Sathya Is not old enough to have car")
+    </script>
+</body>
+</html>
+
+
+
+question 11
+<html>
+<body>
+<script>
+let ele = document.getElementById("myElement");
+ele.textContent = "I was selected by ID.";
+console.log(ele.textContent)
+</script>
+</body>
+</html>
+
+
+
+question 10
+<body>
+    <div id="container">
+    </div>
+
+    <script>
+        const newPara = document.createElement("p");
+        newPara.textContent = "This is a new paragraph.";
+
+        const container = document.getElementById("container");
+        container.appendChild(newParagraph);
+    </script>
+</body>
+</html>
+
+
+
