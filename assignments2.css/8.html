@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Alignment in Table Cells</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            height: 100px; 
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .top-align {
+            vertical-align: top;
+        }
+        .middle-align {
+            vertical-align: middle;
+        }
+        .bottom-align {
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Table with Different Vertical Alignments</h2>
+
+<table>
+    <tr>
+        <th>Top Aligned</th>
+        <th>Middle Aligned</th>
+        <th>Bottom Aligned</th>
+    </tr>
+    <tr>
+        <td class="top-align">This text is at the top.</td>
+        <td class="middle-align">This text is in the middle.</td>
+        <td class="bottom-align">This text is at the bottom.</td>
+    </tr>
+</table>
+
+</body>
+</html>

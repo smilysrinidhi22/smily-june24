@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Text Alignment</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        
+        th, td.left-align {
+            text-align: left;
+        }
+        th, td.center-align {
+            text-align: center;
+        }
+        th, td.right-align {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Table with Different Text Alignments</h2>
+
+<table>
+    <tr>
+        <th class="left-align">Left Align</th>
+        <th class="center-align">Center Align</th>
+        <th class="right-align">Right Align</th>
+    </tr>
+    <tr>
+        <td class="left-align">Text 1</td>
+        <td class="center-align">Text 2</td>
+        <td class="right-align">Text 3</td>
+    </tr>
+    <tr>
+        <td class="left-align">Text 4</td>
+        <td class="center-align">Text 5</td>
+        <td class="right-align">Text 6</td>
+    </tr>
+</table>
+
+</body>
+</html>

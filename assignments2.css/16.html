@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Alignment with Float</title>
+    <style>
+        .container {
+            width: 100%;
+           
+            background-color: #efd4d4;
+            text-align: center; 
+        }
+        
+        .box {
+            float: left;
+            width: 30%;
+            margin: 10px;
+            background-color: #3498db;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .center-box {
+            float: none;
+            margin: 0 auto;
+            display: block;
+            width: 50%;
+            background-color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Left Box</div>
+        <div class="box center-box">Centered Box</div>
+        <div class="box">Right Box</div>
+    </div>
+</body>
+</html>
